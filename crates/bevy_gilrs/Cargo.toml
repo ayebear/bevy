@@ -19,7 +19,7 @@ bevy_platform = { path = "../bevy_platform", version = "0.17.3", default-feature
 ] }
 
 # other
-gilrs = "0.11.0"
+gilrs = { version = "0.11.0", default-features = false, features = ["xinput"] }
 thiserror = { version = "2", default-features = false }
 tracing = { version = "0.1", default-features = false, features = ["std"] }
 
